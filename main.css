@@ -18,12 +18,13 @@ Fonts
 Images
 http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
 ******************************/
-*{
+*{background-color:"#222"; font-color:"#d4d4d4"; 
+text-decoration: text shadows:"#000 (bottom right) and gold (top left)";
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html, body{background-color:"#222"; font-color:"#d4d4d4";
+html, body{content background:"#444";
     font-size: 3vh; default font-size = 1.0rem 
 }
 h1{ font-family: 'Helvetica Neue'
@@ -32,13 +33,17 @@ h1{ font-family: 'Helvetica Neue'
 h3{
    
 }
+a{ font-color: "gold";
+
+}
+
 p{
 
 }
 nav a, nav a:link, nav a:visited{
 
 }
-a:hover, a:active{
+a:hover, a:active{color: "#fff";
 
 }
 nav ul{
@@ -56,7 +61,7 @@ nav li{
 #main{
 
 }
-#footer{
+#footer{background: "#333";
 
 }
 #footer p{
